@@ -40,7 +40,7 @@ public class sistemaevaluacion {
         System.out.println("]");
         System.out.printf("Promedio: %.2f%n", promedio);
         System.out.println("Literal: " + literal);
-        System.out.println("Resultado: " + (aprobado ? "Aprobado ✅" : "Reprobado ❌"));
+        System.out.println("Resultado: " + (aprobado ? "Aprobado" : "Reprobado"));
         System.out.println("------------------------------");
     }
 
